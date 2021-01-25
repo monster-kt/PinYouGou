@@ -4,7 +4,7 @@
  * @Author: surui
  * @Date: 2021-01-19 13:42:52
  * @LastEditors: surui
- * @LastEditTime: 2021-01-25 15:59:05
+ * @LastEditTime: 2021-01-25 21:07:33
  */
 $(function () {
     // 购物车全选按钮
@@ -17,7 +17,7 @@ $(function () {
         if ($(".j-checkbox:checked").length === $(".j-checkbox").length) {
             $(".checkall").prop("checked", true);
         } else {
-            $(".checkall").prop("checkbox", false);
+            $(".checkall").prop("checked", false);
         }
     });
 
