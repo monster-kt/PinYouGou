@@ -100,16 +100,6 @@ window.addEventListener('load', function () {
         arrow_r.click();
     }, 2000)
 
-    // 固定电梯导航 鼠标移动更换背景颜色
-    var lis = document.querySelector('.fixedtool').querySelectorAll('li');
-    for (var i = 0; i < lis.length; i++){
-        lis[i].onmousemove = function () {
-            this.className = 'current';
-        }
-        lis[i].onmouseout = function () {
-            this.className = '';
-        }
-    }
     // 购物车鼠标事件
     var shopcar = document.querySelector('.shopcar');
     shopcar.addEventListener('mouseover', function () {

@@ -156,6 +156,7 @@
 	margin-left: 1px;
 	color: #fff;
 	transition: all 0.5s;
+	cursor: pointer;
 }
 .menu_item:hover {
 	background: #fff;

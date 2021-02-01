@@ -284,14 +284,16 @@
 	width: 66px;
 	left: 50%;
 	margin-left: -676px;
-	z-index: 3;
 	background-color: #fff;
+	display: none;
 }
 .fixedtool li{
 	height: 32px;
 	line-height: 32px;
 	font-size: 12px;
 	text-align: center;
+	border-bottom: 1px solid;
+	cursor: pointer;
 }
 .current{
 	background: #c81623;
